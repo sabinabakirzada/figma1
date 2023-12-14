@@ -1,0 +1,27 @@
+.footer {
+  background-color: #232127;
+}
+.footer-head {
+  display: flex;
+  color: white;
+  align-items: center;
+
+  gap: 100px;
+}
+.f-h1 {
+  padding: 71px 168px 206px 163px;
+}
+.f-ul {
+  display: flex;
+  gap: 110px;
+  padding-bottom: 125px;
+}
+
+.f-p1 {
+  padding: 71px 0px 187px 10px;
+}
+.f-ul li {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}

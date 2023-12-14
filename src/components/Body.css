@@ -1,0 +1,62 @@
+.body-t {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.body-t-left {
+  text-align: left;
+  margin: 95px 75px 215px;
+  width: 600px;
+}
+h2 {
+  letter-spacing: -2px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+}
+p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #979797;
+  line-height: 36px;
+}
+.b-btn1 {
+  border: none;
+  background-color: #2bd0d0;
+  color: white;
+  border-radius: 28px;
+  padding: 13px 24px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 38px;
+}
+.b-btn1:hover {
+  background-color: #5ee0e0;
+  cursor: pointer;
+}
+.body-t-right {
+  margin-right: -130px;
+}
+.input {
+  display: flex;
+  background-color: #3a3054;
+  padding: 52px 65px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  justify-content: center;
+  position: absolute;
+  left: 150px;
+  bottom: 120px;
+}
+input {
+  padding: 0px 300px;
+  border-radius: 10px;
+}
+.b-btn2 {
+  border-radius: 10px;
+  padding: 20px 40px;
+  background-color: #2bd0d0;
+  font-size: 20px;
+  font-weight: 700;
+}
