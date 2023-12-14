@@ -3,36 +3,37 @@ import "./Footer.css";
 import social from "../assets/social.svg";
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="container">
       <div className="footer-head">
-        <h1 className="f-h1">Shortly</h1>
+        <h1 className="f-h2">Shortly</h1>
         <ul className="f-ul">
           <li>Features</li>
           <li>Pricing</li>
           <li>Resources</li>
         </ul>
         <p className="f-p1">
-          <img src={social} />
+          <img className="social" src={social} />
         </p>
       </div>
       <div className="footer-list">
-        <ul>
+        <ul className="f-ul2 f-ull1">
           <li>Link Shortening</li>
           <li>Branded Links</li>
           <li>Analytics</li>
         </ul>
-        <ul>
+        <ul className="f-ul2 f-ull2">
           <li>Blog</li>
           <li>Developers</li>
           <li>Support</li>
         </ul>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+        <ul className="f-ul2 f-ull3">
+          <li>About</li>
+          <li>Our Team</li>
+          <li>Careers</li>
+          <li>Contact</li>
         </ul>
       </div>
-    </div>
+    </footer>
   );
 };
 

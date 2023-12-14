@@ -1,4 +1,4 @@
-.footer {
+footer {
   background-color: #232127;
 }
 .footer-head {
@@ -11,6 +11,9 @@
 .f-h1 {
   padding: 71px 168px 206px 163px;
 }
+.f-h2 {
+  padding: 71px 168px 206px 163px;
+}
 .f-ul {
   display: flex;
   gap: 110px;
@@ -20,8 +23,34 @@
 .f-p1 {
   padding: 71px 0px 187px 10px;
 }
-.f-ul li {
-  font-size: 16px;
-  font-weight: 700;
+.footer-list {
+  display: flex;
+  justify-content: center;
+  margin-top: -175px;
+
+  text-align: left;
+}
+.footer-list > ul {
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+.footer-list > ul > li {
+  font-size: 15px;
+  font-weight: 500;
   color: white;
+}
+.f-ul2 {
+  color: #bfbfbf;
+}
+.f-ull1 {
+  position: relative;
+  right: 54px;
+}
+.f-ull2 {
+  position: relative;
+  left: 8px;
+}
+.f-ull3 {
+  position: relative;
+  left: 90px;
 }

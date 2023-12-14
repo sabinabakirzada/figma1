@@ -2,7 +2,7 @@ import React from "react";
 import "./Body.css";
 const Body = () => {
   return (
-    <div>
+    <body className="container">
       <div className="body-t">
         <div className="body-t-left">
           <h2>More than just shorter links</h2>
@@ -21,7 +21,7 @@ const Body = () => {
         <input type="text" placeholder="Shorten a link here" />
         <button className="b-btn2">Shorten It!</button>
       </div>
-    </div>
+    </body>
   );
 };
 

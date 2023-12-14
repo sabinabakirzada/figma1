@@ -6,7 +6,7 @@ import icon3 from "../assets/icon3.svg";
 
 const Card = () => {
   return (
-    <div>
+    <div className="container">
       <p className="green-line"> </p>
 
       <div className="cards">

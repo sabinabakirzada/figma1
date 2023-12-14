@@ -8,8 +8,9 @@ header {
   display: flex;
   align-items: center;
   gap: 25px;
+  margin: 30px 80px;
 }
-ul {
+.ull {
   display: flex;
   gap: 15px;
 }

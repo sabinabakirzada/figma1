@@ -5,6 +5,7 @@ import Body from "./components/Body";
 import BodyM from "./components/BodyM.jsx";
 import BodyBottom from "./components/BodyBottom";
 import Footer from "./components/Footer";
+import "./components/All.css";
 
 function App() {
   return (
